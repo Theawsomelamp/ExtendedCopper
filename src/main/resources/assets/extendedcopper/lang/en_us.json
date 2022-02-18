@@ -1,0 +1,23 @@
+{
+  "block.extendedcopper.copper_button": "Copper Button",
+  "block.extendedcopper.copper_pressure_plate": "Copper Pressure Plate",
+  "block.extendedcopper.copper_trapdoor": "Copper Trapdoor",
+  "block.extendedcopper.exposed_copper_trapdoor": "Exposed Copper Trapdoor",
+  "block.extendedcopper.weathered_copper_trapdoor": "Weathered Copper Trapdoor",
+  "block.extendedcopper.oxidized_copper_trapdoor": "Oxidized Copper Trapdoor",
+  "block.extendedcopper.waxed_copper_trapdoor": "Waxed Copper Trapdoor",
+  "block.extendedcopper.waxed_exposed_copper_trapdoor": "Waxed Exposed Copper Trapdoor",
+  "block.extendedcopper.waxed_weathered_copper_trapdoor": "Waxed Weathered Copper Trapdoor",
+  "block.extendedcopper.waxed_oxidized_copper_trapdoor": "Waxed Oxidized Copper Trapdoor",
+  "block.extendedcopper.copper_lantern": "Copper lantern",
+  "block.extendedcopper.copper_bars": "Copper Bars",
+  "block.extendedcopper.exposed_copper_bars": "Exposed Copper Bars",
+  "block.extendedcopper.weathered_copper_bars": "Weathered Copper Bars",
+  "block.extendedcopper.oxidized_copper_bars": "Oxidized Copper Bars",
+  "block.extendedcopper.waxed_copper_bars": "Waxed Copper Bars",
+  "block.extendedcopper.waxed_exposed_copper_bars": "Waxed Exposed Copper Bars",
+  "block.extendedcopper.waxed_weathered_copper_bars": "Waxed Weathered Copper Bars",
+  "block.extendedcopper.waxed_oxidized_copper_bars": "Waxed Oxidized Copper Bars",
+  "block.extendedcopper.copper_chain": "Copper Chain",
+  "item.extendedcopper.copper_nugget": "Copper Nugget"
+}

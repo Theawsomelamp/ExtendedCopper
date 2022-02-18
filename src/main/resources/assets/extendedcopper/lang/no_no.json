@@ -1,0 +1,22 @@
+{
+  "block.extendedcopper.copper_button": "Kobberknapp",
+  "block.extendedcopper.copper_pressure_plate": "Kobbertrykkplate",
+  "block.extendedcopper.copper_trapdoor": "Kobberfallem",
+  "block.extendedcopper.exposed_copper_trapdoor": "Utsatt kobberfallem",
+  "block.extendedcopper.weathered_copper_trapdoor": "V&aelig;rbitt kobberfallem",
+  "block.extendedcopper.oxidized_copper_trapdoor": "Irret kobberfallem",
+  "block.extendedcopper.waxed_copper_trapdoor": "Vokset kobberfallem",
+  "block.extendedcopper.waxed_exposed_copper_trapdoor": "Vokset utsatt kobberfallem",
+  "block.extendedcopper.waxed_weathered_copper_trapdoor": "Vokset v&aelig;rbitt kobberfallem",
+  "block.extendedcopper.waxed_oxidized_copper_trapdoor": "Vokset irret kobberfallem",
+  "block.extendedcopper.copper_lantern": "Kobberlykt",
+  "block.extendedcopper.copper_bars": "Kobbergitter",
+  "block.extendedcopper.exposed_copper_bars": "Utsatt kobbergitter",
+  "block.extendedcopper.weathered_copper_bars": "V&aelig;rbitt kobbergitter",
+  "block.extendedcopper.oxidized_copper_bars": "Irret kobbergitter",
+  "block.extendedcopper.waxed_copper_bars": "Vokset kobbergitter",
+  "block.extendedcopper.waxed_exposed_copper_bars": "Vokset utsatt kobbergitter",
+  "block.extendedcopper.waxed_weathered_copper_bars": "Vokset v&aelig;rbitt kobbergitter",
+  "block.extendedcopper.waxed_oxidized_copper_bars": "Vokset irret kobbergitter",
+  "item.extendedcopper.copper_nugget": "Kobberklump"
+}

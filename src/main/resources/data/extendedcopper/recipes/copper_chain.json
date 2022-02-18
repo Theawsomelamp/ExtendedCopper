@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I",
+    "N"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "N": {
+      "item": "extendedcopper:copper_nugget"
+    }
+  },
+  "result": {
+    "item": "extendedcopper:copper_chain"
+  }
+}
