@@ -1,5 +1,12 @@
 {
   "block.extendedcopper.copper_button": "Copper Button",
+  "block.extendedcopper.exposed_copper_button": "Exposed Copper Button",
+  "block.extendedcopper.weathered_copper_button": "Weathered Copper Button",
+  "block.extendedcopper.oxidized_copper_button": "Oxidized Copper Button",
+  "block.extendedcopper.waxed_copper_button": "Waxed Copper Button",
+  "block.extendedcopper.waxed_exposed_copper_button": "Waxed Exposed Copper Button",
+  "block.extendedcopper.waxed_weathered_copper_button": "Waxed Weathered Copper Button",
+  "block.extendedcopper.waxed_oxidized_copper_button": "Waxed Oxidized Copper Button",
   "block.extendedcopper.copper_pressure_plate": "Copper Pressure Plate",
   "block.extendedcopper.copper_trapdoor": "Copper Trapdoor",
   "block.extendedcopper.exposed_copper_trapdoor": "Exposed Copper Trapdoor",

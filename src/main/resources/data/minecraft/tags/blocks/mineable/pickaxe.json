@@ -2,6 +2,13 @@
   "replace": false,
   "values": [
     "extendedcopper:copper_button",
+    "extendedcopper:exposed_copper_button",
+    "extendedcopper:weathered_copper_button",
+    "extendedcopper:oxidized_copper_button",
+    "extendedcopper:waxed_copper_button",
+    "extendedcopper:waxed_exposed_copper_button",
+    "extendedcopper:waxed_weathered_copper_button",
+    "extendedcopper:waxed_oxidized_copper_trapdoor",
     "extendedcopper:copper_pressure_plate",
     "extendedcopper:copper_trapdoor",
     "extendedcopper:exposed_copper_trapdoor",
