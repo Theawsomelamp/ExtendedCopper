@@ -6,8 +6,7 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
-
-import java.util.Random;
+import net.minecraft.util.math.random.Random;
 
 public class ExposedButtonBlock extends ModAbstractButtonBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;

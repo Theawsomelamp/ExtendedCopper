@@ -5,8 +5,7 @@ import net.minecraft.block.Oxidizable;
 import net.minecraft.block.PaneBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
-
-import java.util.Random;
+import net.minecraft.util.math.random.Random;
 
 public class ModBarsBlock extends PaneBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;

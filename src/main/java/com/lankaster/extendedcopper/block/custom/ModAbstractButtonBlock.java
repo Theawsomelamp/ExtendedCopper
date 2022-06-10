@@ -1,7 +1,7 @@
 package com.lankaster.extendedcopper.block.custom;
 
 import java.util.List;
-import java.util.Random;
+
 import net.minecraft.block.AbstractBlock.Settings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -24,6 +24,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Direction.Axis;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
@@ -113,7 +114,7 @@ public abstract class ModAbstractButtonBlock extends WallMountedBlock {
         } else {
             this.powerOn(state, world, pos);
             this.playClickSound(player, world, pos, true);
-            world.emitGameEvent(player, GameEvent.BLOCK_PRESS, pos);
+            world.emitGameEvent(player, GameEvent.BLOCK_ACTIVATE, pos);
             return ActionResult.success(world.isClient);
         }
     }
@@ -154,10 +155,19 @@ public abstract class ModAbstractButtonBlock extends WallMountedBlock {
 
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if ((Boolean)state.get(POWERED)) {
+            {
                 world.setBlockState(pos, (BlockState)state.with(POWERED, false), 3);
                 this.updateNeighbors(state, world, pos);
                 this.playClickSound((PlayerEntity)null, world, pos, false);
+                world.emitGameEvent((Entity)null, GameEvent.BLOCK_DEACTIVATE, pos);
+            }
 
+        }
+    }
+
+    public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+        if (!world.isClient && !(Boolean)state.get(POWERED)) {
+            this.tryPowerWithProjectiles(state, world, pos);
         }
     }
 
@@ -169,7 +179,7 @@ public abstract class ModAbstractButtonBlock extends WallMountedBlock {
             world.setBlockState(pos, (BlockState)state.with(POWERED, bl), 3);
             this.updateNeighbors(state, world, pos);
             this.playClickSound((PlayerEntity)null, world, pos, bl);
-            world.emitGameEvent((Entity)list.stream().findFirst().orElse(null), bl ? GameEvent.BLOCK_PRESS : GameEvent.BLOCK_UNPRESS, pos);
+            world.emitGameEvent((Entity)list.stream().findFirst().orElse(null), bl ? GameEvent.BLOCK_ACTIVATE : GameEvent.BLOCK_DEACTIVATE, pos);
         }
 
         if (bl) {
