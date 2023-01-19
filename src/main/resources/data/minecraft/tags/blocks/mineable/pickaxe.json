@@ -27,6 +27,14 @@
     "extendedcopper:waxed_weathered_copper_bars",
     "extendedcopper:waxed_oxidized_copper_bars",
     "extendedcopper:copper_lantern",
-    "extendedcopper:copper_chain"
+    "extendedcopper:copper_chain",
+    "extendedcopper:copper_door",
+    "extendedcopper:exposed_copper_door",
+    "extendedcopper:weathered_copper_door",
+    "extendedcopper:oxidized_copper_door",
+    "extendedcopper:waxed_copper_door",
+    "extendedcopper:waxed_exposed_copper_door",
+    "extendedcopper:waxed_weathered_copper_door",
+    "extendedcopper:waxed_oxidized_copper_door"
   ]
 }

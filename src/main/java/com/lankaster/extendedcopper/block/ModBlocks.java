@@ -113,7 +113,37 @@ public class ModBlocks {
     public static final Block COPPER_CHAIN = registerBlock("copper_chain",
             new ChainBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
 
+    public static final Block COPPER_DOOR = registerBlock("copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
 
+    public static final Block EXPOSED_COPPER_DOOR = registerBlock("exposed_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block WEATHERED_COPPER_DOOR = registerBlock("weathered_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block OXIDIZED_COPPER_DOOR = registerBlock("oxidized_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block WAXED_COPPER_DOOR = registerBlock("waxed_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block WAXED_EXPOSED_COPPER_DOOR = registerBlock("waxed_exposed_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block WAXED_WEATHERED_COPPER_DOOR = registerBlock("waxed_weathered_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
+
+    public static final Block WAXED_OXIDIZED_COPPER_DOOR = registerBlock("waxed_oxidized_copper_door",
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
+                    .requiresTool().nonOpaque()));
 
 
 

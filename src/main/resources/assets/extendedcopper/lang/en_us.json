@@ -25,6 +25,14 @@
   "block.extendedcopper.waxed_exposed_copper_bars": "Waxed Exposed Copper Bars",
   "block.extendedcopper.waxed_weathered_copper_bars": "Waxed Weathered Copper Bars",
   "block.extendedcopper.waxed_oxidized_copper_bars": "Waxed Oxidized Copper Bars",
+  "block.extendedcopper.copper_door": "Copper Door",
+  "block.extendedcopper.exposed_copper_door": "Exposed Copper Door",
+  "block.extendedcopper.weathered_copper_door": "Weathered Copper Door",
+  "block.extendedcopper.oxidized_copper_door": "Oxidized Copper Door",
+  "block.extendedcopper.waxed_copper_door": "Waxed Copper Door",
+  "block.extendedcopper.waxed_exposed_copper_door": "Waxed Exposed Copper Door",
+  "block.extendedcopper.waxed_weathered_copper_door": "Waxed Weathered Copper Door",
+  "block.extendedcopper.waxed_oxidized_copper_door": "Waxed Oxidized Copper Door",
   "block.extendedcopper.copper_chain": "Copper Chain",
   "item.extendedcopper.copper_nugget": "Copper Nugget"
 }

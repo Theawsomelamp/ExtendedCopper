@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "extendedcopper",
-  "version": "${version}",
+  "version": "1.4.0",
 
   "name": "Extended Copper",
   "description": "Adds more vanilla uses for copper",
@@ -9,8 +9,7 @@
     "Lankaster"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Theawsomelamp/ExtendedCopper"
   },
 
   "license": "CC0-1.0",
@@ -22,9 +21,6 @@
       "com.lankaster.extendedcopper.ExtendedCopper"
     ]
   },
-  "mixins": [
-    "extendedcopper.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
