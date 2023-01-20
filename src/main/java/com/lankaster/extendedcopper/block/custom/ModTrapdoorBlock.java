@@ -1,6 +1,8 @@
 package com.lankaster.extendedcopper.block.custom;
 
-import net.minecraft.block.*;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Oxidizable;
+import net.minecraft.block.TrapdoorBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
@@ -10,7 +12,7 @@ public class ModTrapdoorBlock extends TrapdoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public ModTrapdoorBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings) {
-        super(settings, BlockSetType.IRON);
+        super(settings, SoundEvents.BLOCK_IRON_TRAPDOOR_CLOSE, SoundEvents.BLOCK_IRON_TRAPDOOR_OPEN);
         this.oxidationLevel = oxidationLevel;
     }
 
