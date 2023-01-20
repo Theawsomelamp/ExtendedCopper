@@ -3,14 +3,10 @@ package com.lankaster.extendedcopper.block.custom;
 
 import net.minecraft.block.*;
 import net.minecraft.block.enums.DoubleBlockHalf;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
-import net.minecraft.world.World;
-import net.minecraft.world.event.GameEvent;
 
 import java.util.Iterator;
 
@@ -19,7 +15,7 @@ public class ModDoorBlock extends DoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public ModDoorBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings) {
-        super(settings);
+        super(settings, SoundEvents.BLOCK_IRON_DOOR_CLOSE, SoundEvents.BLOCK_IRON_DOOR_OPEN);
         this.oxidationLevel = oxidationLevel;
     }
 

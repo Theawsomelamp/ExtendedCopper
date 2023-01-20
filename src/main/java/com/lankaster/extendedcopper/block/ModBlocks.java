@@ -1,15 +1,18 @@
 package com.lankaster.extendedcopper.block;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import com.lankaster.extendedcopper.ExtendedCopper;
 import com.lankaster.extendedcopper.block.custom.*;
+
+import static net.minecraft.item.ItemGroups.REDSTONE;
 
 public class ModBlocks {
 
@@ -148,17 +151,19 @@ public class ModBlocks {
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block){
-        return Registry.register(Registry.BLOCK, new Identifier(ExtendedCopper.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ExtendedCopper.MOD_ID, name), block);
     }
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
-        return Registry.register(Registry.BLOCK, new Identifier(ExtendedCopper.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ExtendedCopper.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registry.ITEM, new Identifier(ExtendedCopper.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().group(ItemGroup.REDSTONE)));
+        Item item = Registry.register(Registries.ITEM, new Identifier(ExtendedCopper.MOD_ID, name),
+                new BlockItem(block, new Item.Settings()));
+        ItemGroupEvents.modifyEntriesEvent(REDSTONE).register(entries -> entries.add(item));
+        return item;
     }
 
     public static void registerModBlocks() {
