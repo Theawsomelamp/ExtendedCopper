@@ -1,5 +1,7 @@
 package com.lankaster.extendedcopper.block.custom;
 
+import net.minecraft.block.BlockSetType;
+import net.minecraft.block.Material;
 import net.minecraft.block.PressurePlateBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
@@ -14,7 +16,7 @@ import java.util.List;
 
 public class ModPressurePlateBlock extends PressurePlateBlock {
     public ModPressurePlateBlock(ActivationRule type, Settings settings) {
-        super(type, settings, SoundEvents.BLOCK_METAL_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_METAL_PRESSURE_PLATE_CLICK_ON);
+        super(type, settings, BlockSetType.STONE);
     }
 
     @Override

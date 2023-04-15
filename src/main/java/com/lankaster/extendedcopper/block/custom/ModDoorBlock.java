@@ -15,7 +15,7 @@ public class ModDoorBlock extends DoorBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public ModDoorBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings) {
-        super(settings, SoundEvents.BLOCK_IRON_DOOR_CLOSE, SoundEvents.BLOCK_IRON_DOOR_OPEN);
+        super(settings, BlockSetType.IRON);
         this.oxidationLevel = oxidationLevel;
     }
 
