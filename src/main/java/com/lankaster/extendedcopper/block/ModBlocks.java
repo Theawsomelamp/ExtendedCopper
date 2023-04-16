@@ -14,32 +14,52 @@ import com.lankaster.extendedcopper.block.custom.*;
 public class ModBlocks {
 
     public static final Block COPPER_BUTTON = registerBlock("copper_button",
-            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block EXPOSED_COPPER_BUTTON = registerBlock("exposed_copper_button",
-            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block WEATHERED_COPPER_BUTTON = registerBlock("weathered_copper_button",
-            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block OXIDIZED_COPPER_BUTTON = registerBlock("oxidized_copper_button",
-            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block WAXED_COPPER_BUTTON = registerBlock("waxed_copper_button",
-            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block WAXED_EXPOSED_COPPER_BUTTON = registerBlock("waxed_exposed_copper_button",
-            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block WAXED_WEATHERED_COPPER_BUTTON = registerBlock("waxed_weathered_copper_button",
-            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block WAXED_OXIDIZED_COPPER_BUTTON = registerBlock("waxed_oxidized_copper_button",
-            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
 
     public static final Block COPPER_PRESSURE_PLATE = registerBlock("copper_pressure_plate",
-            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("exposed_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block WAXED_COPPER_PRESSURE_PLATE = registerBlock("waxed_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block WAXED_EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block WAXED_WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+
+    public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
 
     public static final Block COPPER_TRAPDOOR = registerBlock("copper_trapdoor",
             new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)

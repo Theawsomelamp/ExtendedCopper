@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate"
+    },
+    "power=1": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=10": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=11": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=12": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=13": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=14": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=15": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=2": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=3": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=4": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=5": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=6": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=7": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=8": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    },
+    "power=9": {
+      "model": "extendedcopper:block/weathered_copper_pressure_plate_down"
+    }
+  }
+}
