@@ -1,5 +1,6 @@
 package com.lankaster.extendedcopper.block.custom;
 
+import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ButtonBlock;
 import net.minecraft.block.Oxidizable;
@@ -13,7 +14,7 @@ public class ModStoneButtonBlock extends ButtonBlock implements Oxidizable {
     private final Oxidizable.OxidationLevel oxidationLevel;
 
     public ModStoneButtonBlock(Oxidizable.OxidationLevel oxidationLevel, Settings settings) {
-        super(settings, 20, false,  SoundEvents.BLOCK_STONE_BUTTON_CLICK_OFF, SoundEvents.BLOCK_STONE_BUTTON_CLICK_ON);
+        super(settings, BlockSetType.IRON, 20, false);
         this.oxidationLevel = oxidationLevel;
     }
 

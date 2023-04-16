@@ -1,5 +1,6 @@
 package com.lankaster.extendedcopper.block.custom;
 
+import net.minecraft.block.BlockSetType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Oxidizable;
 import net.minecraft.block.WeightedPressurePlateBlock;
@@ -16,7 +17,7 @@ public class ModPressurePlateBlock extends WeightedPressurePlateBlock implements
     private final int weight;
 
     public ModPressurePlateBlock(Oxidizable.OxidationLevel oxidationLevel, int weight, Settings settings) {
-        super(weight, settings, SoundEvents.BLOCK_METAL_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_METAL_PRESSURE_PLATE_CLICK_ON);
+        super(weight, settings,  BlockSetType.IRON);
         this.oxidationLevel = oxidationLevel;
         this.weight = weight;
     }
