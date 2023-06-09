@@ -17,156 +17,156 @@ import static net.minecraft.item.ItemGroups.REDSTONE;
 public class ModBlocks {
 
     public static final Block COPPER_BUTTON = registerBlock("copper_button",
-            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_BUTTON = registerBlock("exposed_copper_button",
-            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_BUTTON = registerBlock("weathered_copper_button",
-            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_BUTTON = registerBlock("oxidized_copper_button",
-            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_COPPER_BUTTON = registerBlock("waxed_copper_button",
-            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new ModStoneButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_EXPOSED_COPPER_BUTTON = registerBlock("waxed_exposed_copper_button",
-            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new ExposedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_WEATHERED_COPPER_BUTTON = registerBlock("waxed_weathered_copper_button",
-            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new WeatheredButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_OXIDIZED_COPPER_BUTTON = registerBlock("waxed_oxidized_copper_button",
-            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()));
+            new OxidizedButtonBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f).requiresTool().noCollision().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block COPPER_PRESSURE_PLATE = registerBlock("copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("exposed_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("weathered_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("oxidized_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_COPPER_PRESSURE_PLATE = registerBlock("waxed_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 1, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_EXPOSED_COPPER_PRESSURE_PLATE = registerBlock("waxed_exposed_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 15, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_WEATHERED_COPPER_PRESSURE_PLATE = registerBlock("waxed_weathered_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 75, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_OXIDIZED_COPPER_PRESSURE_PLATE = registerBlock("waxed_oxidized_copper_pressure_plate",
-            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.of(Material.METAL).requiresTool().noCollision().strength(4.0F)));
+            new ModPressurePlateBlock(Oxidizable.OxidationLevel.UNAFFECTED, 150, FabricBlockSettings.create().requiresTool().noCollision().strength(4.0F).sounds(BlockSoundGroup.COPPER)));
 
     public static final Block COPPER_TRAPDOOR = registerBlock("copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_TRAPDOOR = registerBlock("exposed_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_TRAPDOOR = registerBlock("weathered_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_TRAPDOOR = registerBlock("oxidized_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_COPPER_TRAPDOOR = registerBlock("waxed_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_EXPOSED_COPPER_TRAPDOOR = registerBlock("waxed_exposed_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_WEATHERED_COPPER_TRAPDOOR = registerBlock("waxed_weathered_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_OXIDIZED_COPPER_TRAPDOOR = registerBlock("waxed_oxidized_copper_trapdoor",
-            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModTrapdoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block COPPER_BARS = registerBlock("copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_BARS = registerBlock("exposed_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_BARS = registerBlock("weathered_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_BARS = registerBlock("oxidized_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_COPPER_BARS = registerBlock("waxed_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_EXPOSED_COPPER_BARS = registerBlock("waxed_exposed_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_WEATHERED_COPPER_BARS = registerBlock("waxed_weathered_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_OXIDIZED_COPPER_BARS = registerBlock("waxed_oxidized_copper_bars",
-            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModBarsBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final LanternBlock COPPER_LANTERN = (LanternBlock) registerBlock("copper_lantern",
-            new LanternBlock(FabricBlockSettings.of(Material.METAL).requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {
+            new LanternBlock(FabricBlockSettings.create().requiresTool().strength(3.5F).sounds(BlockSoundGroup.LANTERN).luminance((state) -> {
         return 15;
-    }).nonOpaque()));
+    }).nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block COPPER_CHAIN = registerBlock("copper_chain",
-            new ChainBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()));
+            new ChainBlock(FabricBlockSettings.create().strength(4.0f).requiresTool().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block COPPER_DOOR = registerBlock("copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block EXPOSED_COPPER_DOOR = registerBlock("exposed_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WEATHERED_COPPER_DOOR = registerBlock("weathered_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block OXIDIZED_COPPER_DOOR = registerBlock("oxidized_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_COPPER_DOOR = registerBlock("waxed_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_EXPOSED_COPPER_DOOR = registerBlock("waxed_exposed_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_WEATHERED_COPPER_DOOR = registerBlock("waxed_weathered_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
     public static final Block WAXED_OXIDIZED_COPPER_DOOR = registerBlock("waxed_oxidized_copper_door",
-            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.of(Material.METAL).strength(4.0f)
-                    .requiresTool().nonOpaque()));
+            new ModDoorBlock(Oxidizable.OxidationLevel.UNAFFECTED, FabricBlockSettings.create().strength(4.0f)
+                    .requiresTool().nonOpaque().sounds(BlockSoundGroup.COPPER)));
 
 
 
