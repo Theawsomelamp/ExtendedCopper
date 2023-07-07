@@ -19,6 +19,9 @@
   "entrypoints": {
     "main": [
       "com.lankaster.extendedcopper.ExtendedCopper"
+    ],
+    "client": [
+      "com.lankaster.extendedcopper.ExtendedCopperClient"
     ]
   },
 
